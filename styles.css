@@ -258,7 +258,7 @@ button:hover {
 }
 
 .margin-text p {
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     line-height: 2.6rem;
 }
 
@@ -269,6 +269,8 @@ button:hover {
 }
 
 .flex img {
+    display: flex;
+    align-items: center;
     width: 60%;
     border: 3px solid #07889b;
 }
@@ -281,9 +283,6 @@ button:hover {
     }
     .margin-text {
         padding: 1rem;
-    }
-    .margin-text p {
-        font-size: 1.4rem;
     }
 }
 
